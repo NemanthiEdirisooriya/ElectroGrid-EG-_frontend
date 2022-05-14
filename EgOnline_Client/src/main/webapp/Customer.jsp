@@ -57,8 +57,12 @@
 					
 					<br>
 					 Customer Type: 
-					 (Commercial /Individual ) 
-					 <input id="customerType" name="customerType" type="text" class="form-control form-control-sm">  
+					
+					 <select id="customerType" name="customerType" class="form-control form-control-sm">
+					 <option>Commercial</option>
+					 <option>Individual</option>
+					 <option>Other</option>
+					 </select>
 					 
 					 <br> 
 					 Customer Contact:  
